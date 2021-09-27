@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href \"quick-workout\" && ngh --repo=https://github.com/AmineKamal/quick-workout.git --name=\"Amine Kamal\" --email=m.amine.kamal@gmail.com"
+    "deploy": "ng deploy --base-href \"quick-workout\" --repo=https://github.com/AmineKamal/quick-workout.git --name=\"Amine Kamal\" --email=m.amine.kamal@gmail.com"
   },
   "private": true,
   "dependencies": {
