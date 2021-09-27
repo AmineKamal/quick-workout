@@ -1,9 +1,8 @@
-<ion-header>
-    <div class="main" [ngStyle]="{'background': gradients[currentGradientIndex]}">
-      <span class="back-arrow" (click)="back()"
-        ><ion-icon name="arrow-back-outline"></ion-icon
-      ></span>
-    </div>
+<ion-header class="ion-no-border">
+    <ion-toolbar class="main" [ngStyle]="{'background': gradients[currentGradientIndex]}">
+      <ion-icon (click)="back()" slot="start" name="arrow-back-outline"></ion-icon>
+      <ion-title>{{workout.name}}</ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content>
@@ -11,7 +10,7 @@
     <div class="prev-click" (click)="prev()"></div>
     <div class="next-click" (click)="next()"></div>
     <div class="main">
-      <span> {{workout.name}} </span>
+      <span></span>
       <span>{{workout.exercices[currentIndex].name}}</span>
       <span>{{currentIndex + 1}} / {{workout.exercices.length}}</span>
     </div>
