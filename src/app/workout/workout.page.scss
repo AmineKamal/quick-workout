@@ -7,7 +7,11 @@
   align-items: center;
   color: white;
   font-family: 'Style Script', cursive;
-  font-size: xxx-large;
+  font-size: 50px;
+}
+
+ion-toolbar {
+  --background: rgba(0,0,0,0);
 }
 
 .next-click {
