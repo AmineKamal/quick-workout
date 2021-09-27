@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1632770366411,
+  "timestamp": 1632771648010,
   "index": "https://amineKamal.github.io/quick-workout/index.html",
   "assetGroups": [
     {
@@ -14,7 +14,7 @@
         "https://amineKamal.github.io/quick-workout/1296.d5df8caeb76a61a2d198.js",
         "https://amineKamal.github.io/quick-workout/1374.fe5636bf52d3bb79b121.js",
         "https://amineKamal.github.io/quick-workout/1489.a20a2d4df344c07a0ced.js",
-        "https://amineKamal.github.io/quick-workout/1495.d54d06200249c8137a5f.js",
+        "https://amineKamal.github.io/quick-workout/1495.b756b81a201f01805df6.js",
         "https://amineKamal.github.io/quick-workout/1602.90a1c454f2c47405cff0.js",
         "https://amineKamal.github.io/quick-workout/1709.68a03277db989cff6f51.js",
         "https://amineKamal.github.io/quick-workout/1855.4f2d364dae5a09ceb1db.js",
@@ -74,7 +74,7 @@
         "https://amineKamal.github.io/quick-workout/polyfills-css-shim.178116c6830010dfeb94.js",
         "https://amineKamal.github.io/quick-workout/polyfills-dom.6a69fe9cde18e87a5d96.js",
         "https://amineKamal.github.io/quick-workout/polyfills.505e19486d89edf248ed.js",
-        "https://amineKamal.github.io/quick-workout/runtime.77fbfc4f79eb3209d8a9.js",
+        "https://amineKamal.github.io/quick-workout/runtime.e35986053fd0f4071360.js",
         "https://amineKamal.github.io/quick-workout/styles.01c073b644ab8b005210.css"
       ],
       "patterns": []
@@ -106,7 +106,7 @@
     "https://amineKamal.github.io/quick-workout/1296.d5df8caeb76a61a2d198.js": "e0cbf3a6a6e5bd310812a30b92e5f7352871e2b1",
     "https://amineKamal.github.io/quick-workout/1374.fe5636bf52d3bb79b121.js": "a65b2d9f84705086676d7ef976490e14471c20a3",
     "https://amineKamal.github.io/quick-workout/1489.a20a2d4df344c07a0ced.js": "953a590450ab973394753e8a5057b1ffc87addfc",
-    "https://amineKamal.github.io/quick-workout/1495.d54d06200249c8137a5f.js": "1aa679abb35e70958052faf39ee6dc6c8052fde8",
+    "https://amineKamal.github.io/quick-workout/1495.b756b81a201f01805df6.js": "a591a8ccb6c3ebf7d269b603570831f1db504137",
     "https://amineKamal.github.io/quick-workout/1602.90a1c454f2c47405cff0.js": "fc9ae2846b0db6e590ae7c4b6e5f9af86e9e0773",
     "https://amineKamal.github.io/quick-workout/1709.68a03277db989cff6f51.js": "4a94fac4aa59d285c046056e6a7e99635f9e7a5b",
     "https://amineKamal.github.io/quick-workout/1855.4f2d364dae5a09ceb1db.js": "525bd7a71f7ecb98b82a6e6d0106a7df5e473ca6",
@@ -169,14 +169,14 @@
     "https://amineKamal.github.io/quick-workout/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://amineKamal.github.io/quick-workout/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "https://amineKamal.github.io/quick-workout/common.06faf08b963e1518297d.js": "db7692a76a9417dd947d45356e8330f1d457cc78",
-    "https://amineKamal.github.io/quick-workout/index.html": "84800b9ab27ae2d802ec3f674e23f8f25fecb30d",
+    "https://amineKamal.github.io/quick-workout/index.html": "51d45be9749002954b4040cea4787ef8d12ab8d7",
     "https://amineKamal.github.io/quick-workout/main.1ad5a24d645f8c823345.js": "ef3a2c02015271d50c98ba307971499c1b940436",
     "https://amineKamal.github.io/quick-workout/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
     "https://amineKamal.github.io/quick-workout/polyfills-core-js.bff36ab526275dac0f88.js": "9897c8cb0bb975f0692bfcfb6f1c37d7bfe070d3",
     "https://amineKamal.github.io/quick-workout/polyfills-css-shim.178116c6830010dfeb94.js": "bd2ea0adc499354c0bc3d4371cc67cec9263bbcc",
     "https://amineKamal.github.io/quick-workout/polyfills-dom.6a69fe9cde18e87a5d96.js": "c90c34fb95c51779cf605564d0c1725068b511dd",
     "https://amineKamal.github.io/quick-workout/polyfills.505e19486d89edf248ed.js": "b6d3894f603e058876f6d7701876ef0aab3bb942",
-    "https://amineKamal.github.io/quick-workout/runtime.77fbfc4f79eb3209d8a9.js": "441d73d8d152b2c4001d1e2e5a6a5b4537c0c70b",
+    "https://amineKamal.github.io/quick-workout/runtime.e35986053fd0f4071360.js": "2960843321b6c7d432ea4273f149ff4db12080f4",
     "https://amineKamal.github.io/quick-workout/styles.01c073b644ab8b005210.css": "35942273d24e63ec8bd3df2cf6ee778b7da48bb3"
   },
   "navigationUrls": [
