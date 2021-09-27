@@ -1,0 +1,25 @@
+.bg {
+  --background: linear-gradient(
+    to right,
+    #2980b9,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --color: white;
+}
+
+ion-button {
+  --background: linear-gradient(to right, #2980b9, #2c3e50);
+}
+
+.exercice-icon {
+  color: #2980b9;
+}
+
+.bg {
+  --background: linear-gradient(
+    to right,
+    #2980b9,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --color: white;
+}

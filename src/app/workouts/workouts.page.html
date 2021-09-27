@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar class="bg">
+    <ion-title> Workouts </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item
+      lines="full"
+      *ngFor="let workout of workouts"
+      (click)="selectWorkout(workout.id)"
+    >
+      <span class="item-left-outer"><span class="item-left-inner"></span></span>
+      <ion-label>{{ workout.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="uploadNewWorkout()">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+</ion-content>

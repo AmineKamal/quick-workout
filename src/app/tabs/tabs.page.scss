@@ -1,1 +1,7 @@
-
+ion-tab-bar {
+  --background: transparent;
+  background-image: linear-gradient(to right, #2980b9, #2c3e50);
+  --border: none;
+  --color: #c7cbcb;
+  --color-selected: white;
+}

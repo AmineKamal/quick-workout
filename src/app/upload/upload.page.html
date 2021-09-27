@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-toolbar class="bg">
+    <ion-buttons slot="start">
+      <ion-icon slot="icon-only" name="arrow-back" (click)="back()"></ion-icon>
+    </ion-buttons>
+    <ion-title> Upload </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item lines="full">
+      <ion-label position="stacked">Workout Name</ion-label>
+      <ion-input [(ngModel)]="workout.name"></ion-input>
+    </ion-item>
+
+    <ion-item lines="full">
+      <ion-label>Exercices</ion-label>
+      <ion-button slot="end" (click)="addExercice()">
+        <ion-icon slot="icon-only" name="add"></ion-icon>
+      </ion-button>
+    </ion-item>
+
+    <ion-item
+      *ngFor="let exercice of workout.exercices; let i = index"
+      lines="full"
+    >
+      <ion-icon name="barbell" slot="start" class="exercice-icon"></ion-icon>
+      <ion-input
+        placeholder="Enter exercice name"
+        [(ngModel)]="exercice.name"
+      ></ion-input>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar class="bg" (click)="submit()">
+    <ion-title>Submit</ion-title>
+  </ion-toolbar>
+</ion-footer>

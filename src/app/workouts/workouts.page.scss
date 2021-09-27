@@ -1,0 +1,35 @@
+.bg {
+  --background: linear-gradient(
+    to right,
+    #2980b9,
+    #2c3e50
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --color: white;
+}
+
+ion-fab-button {
+  --background: linear-gradient(to right, #2980b9, #2c3e50);
+}
+
+ion-item {
+  --padding-start: 0px;
+}
+
+.item-left-outer {
+  background: linear-gradient(to right, #2980b9, #2c3e50);
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-left-inner {
+  opacity: 0.5;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 30px solid white;
+  border-bottom: 20px solid transparent;
+}

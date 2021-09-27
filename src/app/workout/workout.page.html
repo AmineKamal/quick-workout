@@ -1,0 +1,14 @@
+<ion-content>
+  <div class="main" [ngStyle]="{'background': gradients[currentGradientIndex]}">
+    <div class="prev-click" (click)="prev()"></div>
+    <div class="next-click" (click)="next()"></div>
+    <div class="main">
+      <span class="back-arrow" (click)="back()"
+        ><ion-icon name="arrow-back-outline"></ion-icon
+      ></span>
+      <span> {{workout.name}} </span>
+      <span>{{workout.exercices[currentIndex].name}}</span>
+      <span>{{currentIndex + 1}} / {{workout.exercices.length}}</span>
+    </div>
+  </div>
+</ion-content>
