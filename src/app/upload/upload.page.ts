@@ -13,7 +13,7 @@ export class UploadPage {
   workout: IWorkout = { name: '', id: this.uuidv4(), exercices: [] };
 
   addExercice() {
-    this.workout.exercices.push({ name: '' });
+    this.workout.exercices.push({ name: '', sets: null, reps: null });
   }
 
   submit() {

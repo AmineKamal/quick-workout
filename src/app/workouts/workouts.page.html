@@ -8,11 +8,11 @@
   <ion-list>
     <ion-item
       lines="full"
-      *ngFor="let workout of workouts"
-      (click)="selectWorkout(workout.id)"
+      *ngFor="let workout of workouts; let i = index"
     >
-      <span class="item-left-outer"><span class="item-left-inner"></span></span>
+      <span class="item-left-outer" (click)="selectWorkout(workout.id)"><span class="item-left-inner"></span></span>
       <ion-label>{{ workout.name }}</ion-label>
+      <ion-icon name="trash" color="danger" slot="end" (click)="deleteWorkout(i)"></ion-icon>
     </ion-item>
   </ion-list>
 

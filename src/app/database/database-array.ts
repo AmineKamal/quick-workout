@@ -72,7 +72,11 @@ export class DatabaseArray<T>
 
     public splice(start: number, deleteCount?: number) 
     {
-        return this.data.splice(start, deleteCount);
+        const splice = this.data.splice(start, deleteCount);
+        this.rawData.splice(start, deleteCount);
+        this.update();
+
+        return splice;
     }
 
     public update() 

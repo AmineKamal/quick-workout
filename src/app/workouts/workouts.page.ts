@@ -28,4 +28,9 @@ export class WorkoutsPage implements OnInit {
   selectWorkout(id: string) {
     this.router.navigate(['workout', id]);
   }
+
+  deleteWorkout(index: number) 
+  {
+    Database.get("workouts").splice(index, 1);
+  }
 }

@@ -6,5 +6,7 @@ export interface IWorkout {
   
   export interface IExercice {
     name: string;
+    sets: number;
+    reps: number;
   }
   

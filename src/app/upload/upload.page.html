@@ -27,8 +27,18 @@
     >
       <ion-icon name="barbell" slot="start" class="exercice-icon"></ion-icon>
       <ion-input
-        placeholder="Enter exercice name"
+        placeholder="Name"
         [(ngModel)]="exercice.name"
+      ></ion-input>
+      <ion-input
+        placeholder="Sets"
+        [(ngModel)]="exercice.sets"
+        type="number"
+      ></ion-input>
+      <ion-input
+        placeholder="Reps"
+        [(ngModel)]="exercice.reps"
+        type="number"
       ></ion-input>
     </ion-item>
   </ion-list>

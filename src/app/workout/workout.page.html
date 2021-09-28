@@ -11,7 +11,7 @@
     <div class="next-click" (click)="next()"></div>
     <div class="main">
       <span></span>
-      <span>{{workout.exercices[currentIndex].name}}</span>
+      <span style="text-align: center;">{{workout.exercices[currentIndex].name}}<br>{{workout.exercices[currentIndex].sets}} sets x {{workout.exercices[currentIndex].reps}} reps</span>
       <span>{{currentIndex + 1}} / {{workout.exercices.length}}</span>
     </div>
   </div>
