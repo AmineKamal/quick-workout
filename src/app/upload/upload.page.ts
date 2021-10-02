@@ -11,9 +11,11 @@ import { IWorkout } from '../Interfaces';
 export class UploadPage {
   constructor(private router: Router) {}
   workout: IWorkout = { name: '', id: this.uuidv4(), exercices: [] };
+  toggles: boolean[] = [];
 
   addExercice() {
     this.workout.exercices.push({ name: '', sets: null, reps: null });
+    this.toggles.push(true);
   }
 
   submit() {
@@ -38,4 +40,8 @@ export class UploadPage {
     });
   }
   
+  updateToggle(index: number) 
+  {
+    this.toggles[index] = !this.toggles[index];
+  }
 }

@@ -21,26 +21,28 @@
       </ion-button>
     </ion-item>
 
-    <ion-item
+    <ion-item-group
       *ngFor="let exercice of workout.exercices; let i = index"
       lines="full"
     >
-      <ion-icon name="barbell" slot="start" class="exercice-icon"></ion-icon>
-      <ion-input
-        placeholder="Name"
-        [(ngModel)]="exercice.name"
-      ></ion-input>
-      <ion-input
-        placeholder="Sets"
-        [(ngModel)]="exercice.sets"
-        type="number"
-      ></ion-input>
-      <ion-input
-        placeholder="Reps"
-        [(ngModel)]="exercice.reps"
-        type="number"
-      ></ion-input>
-    </ion-item>
+      <ion-item-divider lines="full">
+        <ion-icon name="barbell" slot="start" class="exercice-icon"></ion-icon>
+        <ion-label style="margin-left: 25px;">{{ exercice.name }}</ion-label>
+        <ion-icon name="caret-down-outline" slot="end" class="exercice-icon" style="margin-right: 20px;" *ngIf="!toggles[i]" (click)="updateToggle(i)"></ion-icon>
+        <ion-icon name="caret-up-outline" slot="end" class="exercice-icon" style="margin-right: 20px;" *ngIf="toggles[i]" (click)="updateToggle(i)"></ion-icon>
+      </ion-item-divider>
+      <ng-container *ngIf="toggles[i]">
+        <ion-item lines="full">
+          <ion-input placeholder="Name" [(ngModel)]="exercice.name"></ion-input>
+        </ion-item>
+        <ion-item lines="full">
+          <ion-input placeholder="Sets" [(ngModel)]="exercice.sets" type="number"></ion-input>
+        </ion-item>
+        <ion-item [lines]="i === workout.exercices.length - 1 ? 'full' : 'none'">
+          <ion-input placeholder="Reps" [(ngModel)]="exercice.reps" type="number"></ion-input>
+        </ion-item>
+      </ng-container>
+    </ion-item-group>
   </ion-list>
 </ion-content>
 

@@ -31,6 +31,7 @@ export class WorkoutsPage implements OnInit {
 
   deleteWorkout(index: number) 
   {
+    if (!confirm("You are about to delete this workout")) return;
     Database.get("workouts").splice(index, 1);
   }
 }
